@@ -1,7 +1,7 @@
 {
   "name": "@creait/dsh-web-fetch",
   "description": "Guarded local fetch provider for the DeepSeek Harness web capability seam (ctx.web) — the backend dsh's shipped web_fetch tool is missing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -31,7 +31,7 @@
     "test": "node --test test/*.test.js"
   },
   "peerDependencies": {
-    "@deepseek-ai/dsh-web": "^0.1.0-rc.7",
+    "@deepseek-ai/dsh-web": "^0.1.0-rc.7 || ^0.2.0-rc.1",
     "@deepseek-ai/cordis": "^4.0.1"
   },
   "dependencies": {

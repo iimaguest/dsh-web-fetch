@@ -2,6 +2,11 @@
 
 The backend DeepSeek Harness's `web_fetch` tool is missing.
 
+Compatibility: the single dsh peer (`@deepseek-ai/dsh-web`) is declared as
+`^0.1.0-rc.7 || ^0.2.0-rc.1`, so the same build mounts on the 0.1.x and 0.2.x
+runtime lines — tested against dsh 0.2.0-rc.2, where the `ctx.web` seam
+(`web.registerFetchProvider`, `WebError`) is unchanged.
+
 ## Why this exists
 
 `@deepseek-ai/dsh-tool-web` already implements the entire model-facing `web_fetch`
